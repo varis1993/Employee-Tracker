@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/varis1993/Employee-Tracker#readme",
   "dependencies": {
+    "as-table": "^1.0.55",
     "express": "^4.17.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
