@@ -1,39 +1,9 @@
-USE employee_management_db;
-INSERT INTO department (name)
- VALUES ("IT"),
-		("Production"),
-		("Engineering"),
-		("Accounting"),
-		("Sales");
--- SELECT * FROM department;
+INSERT INTO department(department_name)
+VALUES("Engineering"), ("Sales"), ("Finance"), ("Legal"), ("Marketing");
 
-INSERT INTO role (title, salary, department_ID) 
-VALUES ("Manager", 65000, 1),
-("IT Tech", 50000, 1),
-("Manager", 50000, 2),
-("Team Lead", 40000, 2),
-("Operator", 30000, 2),
-("Manager", 110000 , 3),
- ("Software Engineer", 85000, 3),
- ("Lead Engineer", 100000, 3),
-("Manager", 85000, 4),
-("Accountant", 70000, 4),
-("Manager", 100000, 5),
-("Sales Lead", 90000, 5),
-("Salesperson", 70000, 5);
--- SELECT * FROM role;
+INSERT INTO role(title, salary, department_id)
+VALUES("Engineer", 85000, 1), ("Senior Engineer", 125000, 1), ("CFO", 350000, 3), ("Chief Counsel", 300000, 4);
 
-USE employee_management_db;
+INSERT INTO employee(first_name, last_name, role_id, manager_id)
+VALUES ('Johnnie', 'Random', 1, 2), ('James', 'Smith', 1, null), ('Ronnie', 'Manning', 1, 2), ('Jimmy', 'Jones', 2, 2), ('Larry', 'Legal', 4, null);
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id) 
-VALUES  ("Joel", "Iles", 1, NULL ),
-		("Theresa", "Louise", 2, 1),
-		("Mitch", "Young", 3, NULL),
-		("Duke", "Johnson", 4, 3),
-		("Josh", "Johnson", 5, 3),
-		("Leslie", "Knope", 6, NULL),
-		("Ron", "Swanson", 7, 6),
-		("April", "Ludgate",8, 6),
-        ("Donna", "Awesome", 9, NULL),
-        ("Tom", "Haverford", 10, 9);
--- SELECT * FROM employee;

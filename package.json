@@ -20,11 +20,16 @@
   "homepage": "https://github.com/varis1993/Employee-Tracker#readme",
   "dependencies": {
     "as-table": "^1.0.55",
+    "console.table": "^0.10.0",
+    "dotenv": "^11.0.0",
+    "employees": "^0.0.2",
     "express": "^4.17.2",
     "figlet": "^1.5.2",
     "inquirer": "^8.2.0",
+    "mssql": "^7.3.0",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "jest": "^27.4.7"
