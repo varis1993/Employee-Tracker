@@ -21,6 +21,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Walkthrough Video
 
-<a href="https://www.youtube.com/watch?v=Cn8znTKnWgw">
+<a href="https://www.youtube.com/watch?v=gdanhbcQfO0">
 <img src="screenshot.jpg" alt="HTML tutorial" style="width:600px;height:400px;">
 </a>
